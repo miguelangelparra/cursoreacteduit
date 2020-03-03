@@ -1,15 +1,19 @@
-import React, {Component} from 'react'
+import React, { Component } from "react";
 
+var Inputs =[{}]
 class Form extends Component {
-    render() {
-      return (
-        <React.Fragment>
-          <input type="text"/>
-          <input type="password"/>
-          <input type="submit"/>
-        </React.Fragment>
-      );
-    }
+  render() {
+    return (
+      <form>
+{Inputs.map((inp)=><Input />)}
+      </form>
+    );
   }
+}
 
-  export default Form 
+class Input extends Component {
+  render() {
+    return (<input placeholder={this.props.pHolder}/>);
+  }
+}
+export default Form;

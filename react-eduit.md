@@ -66,6 +66,13 @@ Ciclo de vida
 <React.Fragment> </React.Fragment o <> </>
 Etiquetas que permiten agrupar multiples elementos sin que aparezca la etiqueta contenedora en el DOM 
 
+Los props son caracteristicas inmutables por parte del componente que las posee. 
 
+El state es una caracteristicasde un componente cuyo valor puede cambiar 
+
+
+https://elabismodenull.wordpress.com/
+https://elabismodenull.wordpress.com/2015/11/25/reactjs-el-ciclo-de-vida-de-un-componente-i/
+https://elabismodenull.wordpress.com/2015/12/16/reactjs-el-ciclo-de-vida-de-un-componente-ii/
 
 
